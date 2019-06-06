@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  letter-spacing: 1px;
+}
+
+.home-content {
+  top: 50%;
+}
+
+.text {
+  text-align: center;
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 0.7em;
+}
+
+.intro-line {
+  margin: 0;
+}
+
+.front-end {
+  margin: 0;
+}
+
+.highlight {
+  color: blue;
+}
