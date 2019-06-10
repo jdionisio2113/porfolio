@@ -1,16 +1,21 @@
 import React from "react";
 import App from "./App";
+// import { Link } from "react-router-dom";
 
 class Home extends React.Component {
   render() {
     return (
       <div className="home-content">
         <div className="text">
-          <h1 className="intro-line">
-            Hello, I'm <span className="highlight">Justin Dionisio</span>
-          </h1>
-          <h1 className="front-end">I'm a Front End Developer</h1>
+          <h1 className="intro-line">Justin Dionisio</h1>
+          <div className="line" />
+          <h2 className="front-end">Front End Developer</h2>
         </div>
+        {/* <Link className="work" to="./projects"> */}
+        <div className="work">
+          <p>View my work</p>
+        </div>
+        {/* </Link> */}
       </div>
     );
   }
