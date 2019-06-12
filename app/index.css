@@ -138,3 +138,23 @@ ul {
   display: flex;
   justify-content: space-around;
 }
+
+/* ======PROJECTS====== */
+.project-section {
+  height: auto;
+  justify-content: inherit;
+  align-items: inherit;
+  color: #000;
+  text-align: center;
+  padding: 0 10px;
+  background: #fffafa;
+}
+
+.projects-title {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.gif {
+  width: 100%;
+}
