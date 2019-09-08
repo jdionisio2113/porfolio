@@ -4,11 +4,13 @@ import react from "../img/react-logo.png";
 import redux from "../img/redux.png";
 import css from "../img/css.svg";
 import webpack from "../img/webpack.png";
+import Nav from './Nav'
 
 class About extends React.Component {
   render() {
     return (
       <div className="about_section">
+        <Nav />
         <h2>About</h2>
         <div className="about-line" />
         <p>

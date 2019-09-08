@@ -51,6 +51,11 @@ ul {
   padding: 0;
 }
 
+a {
+  text-decoration: none;
+  color: lightgrey
+}
+
 /* =======HOME====== */
 
 .home-content {
@@ -95,14 +100,36 @@ ul {
   margin: 0 auto;
 }
 
-.work {
-  position: absolute;
-  top: 56%;
+.nav-list {
+  /* position: absolute;
+  top: 56%; */
   text-align: center;
-  left: 0;
-  right: 0;
+  /* left: 0;
+  right: 0; */
+  margin: 0 0 1em 0;
   font-size: 1.3em;
   color: lightgrey;
+  display: flex;
+  justify-content:space-evenly;
+  flex-wrap: wrap;
+  /* border: 2px solid black; */
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.reference {
+  display: flex;
+  justify-content: space-evenly;
+  width: 40%;
+  margin: 0 auto
+}
+/* .nav-list li {
+  border-right: 2px solid black;
+} */
+
+.home-link, .work-link, .about-link, .contact-link {
+  margin: 0
 }
 
 /* .work:hover {
@@ -147,7 +174,7 @@ ul {
   color: #000;
   text-align: center;
   padding: 0 10px;
-  background: #fffafa;
+  /* background: #fffafa; */
 }
 
 .projects-title {
